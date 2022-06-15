@@ -1,0 +1,44 @@
+#container {
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+}
+
+/* Title */
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+/* Input */
+
+input {
+    border: 0.08rem solid black;
+    padding: 0 0 0 0.4rem ;
+    border-radius: 0.4rem;
+}
+
+button {
+
+    height: 2rem;
+    border: 0.08rem solid rgb(105, 197, 255);
+    border-radius: 0.4rem;
+    margin-left: 0.5rem;
+    background-color: rgb(227, 248, 255);
+    color: rgb(105, 197, 255);
+
+}
+
+.tarefa {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
